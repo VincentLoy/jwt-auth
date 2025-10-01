@@ -16,7 +16,8 @@
     "minimum-stability": "stable",
     "require": {
         "firebase/php-jwt": "^6.3",
-        "collizo4sky/persist-admin-notices-dismissal": "^1.4"
+        "collizo4sky/persist-admin-notices-dismissal": "^1.4",
+        "symfony/deprecation-contracts": "^2.5"
     },
     "require-dev": {
         "php": ">=7.4",
