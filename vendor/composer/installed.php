@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'usefulteam/jwt-auth',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'collizo4sky/persist-admin-notices-dismissal' => array(
+            'pretty_version' => '1.4.5',
+            'version' => '1.4.5.0',
+            'reference' => '163b868c98cf97ea15b4d7e1305e2d52c9242e7e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../collizo4sky/persist-admin-notices-dismissal',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'firebase/php-jwt' => array(
+            'pretty_version' => 'v6.10.0',
+            'version' => '6.10.0.0',
+            'reference' => 'a49db6f0a5033aef5143295342f1c95521b075ff',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../firebase/php-jwt',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'usefulteam/jwt-auth' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
